@@ -3,7 +3,5 @@
 
 ## List of Projects
 
-| # | Name | Completed |
-|:---:|:------:|:-----------:|
-| 1 | [To-Do List](../100-Days-of-Python/project-1-To_Do_List/) | ❌ |
+1. [To-Do List](../100-Days-of-Python/project-1-To_Do_List/) 
 
