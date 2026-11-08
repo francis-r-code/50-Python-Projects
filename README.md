@@ -1,6 +1,6 @@
-# 100 Python Projects
+# 50 Python Projects
 
-**Objective:** Complete at least one small Python project a week until 100 projects are completed total.
+**Objective:** Complete at least one small Python project a week until 50 projects are completed total.
 
 This is a project I have decided to take upon to grow my Python programming skills in order to become a competent AI/ML engineer. The rules of this project were established by me to ensure that I am actually learning how to code and not relying on AI to do my job for me. This repository is open-source, and anyone that wants to complete this project themselves or modify it for their own purposes is allowed to fork this GitHub repository.
 
