@@ -13,5 +13,5 @@ Each project will be numbered and contained in its own folder, which has a GIF d
 
 ## List of Completed Projects
 
-### 1. [To-Do List](../100-Days-of-Python/project-1-To_Do_List/) 
-
+### 1. [To-Do List](../50-Days-of-Python/project-1-To_Do_List/) 
+### 2. [Random Password Generator](../50-Days-of-Python/project-2-Random_Password_Generator/)
