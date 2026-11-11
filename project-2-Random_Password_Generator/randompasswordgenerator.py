@@ -12,5 +12,5 @@ for passwords in range(numberOfPasswords):
         generatedPassword = generatedPassword + characters[random.randint(0,90)]
     passwordList.append(generatedPassword)
 
-for number, password in enumerate(passwordList):\
+for number, password in enumerate(passwordList):
     print(str(number + 1) + ". " + password)

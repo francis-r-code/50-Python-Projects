@@ -8,7 +8,7 @@ This is a project I have decided to take upon to grow my Python programming skil
 
 ## 📁 Structure
 Each project will be numbered and contained in its own folder, containing:
-* A GIF demo
+* A video demo
 * A README summary of the project
 * My solution Python file
   * *Each file was made with Python 3.15. To run them, ensure you have Python installed and open the file either via file explorer or a terminal.*

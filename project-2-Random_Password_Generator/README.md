@@ -1,6 +1,14 @@
 # Random Password Generator
 
-Create a simple program where a password can be automatically generated given a certain password length.
+A simple console program written in Python to understand strings and the **random** module.
+![Random Password Generator Demo](project2demo.mp4)
 
+To see how I coded the program, check out the [coding session's YouTube video!](https://youtu.be/-S9FgGBqE28)
+## 🎯 Objective
+Create a program that will generate a certain number of passwords with random characters in them. Allow users to specify:
+* How many passwords they want.
+* How long each password should be.
 
-![](../project-2-Random_Password_Generator/project2demo.gif)
+## 🔧 Challenges and Learnings
+* **Strings:** This project required me to learn about working with strings and the different methods you can use on string objects. I also had to learn about ASCII characters since they would be used to generate the passwords.
+* **Random module:** To randomly pick characters, I had to use Python's built-in Random module. I had little prior knowledge about how to use it, but this project helped me understand how to make it work. 

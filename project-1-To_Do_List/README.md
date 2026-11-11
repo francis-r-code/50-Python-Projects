@@ -1,6 +1,18 @@
 # To-Do List
 
-Create a simple to-do list where users can create their own tasks, edit them, or delete existing ones.
+A simple command line interface To-Do List Application created with Python to master handling user input and lists.
+![To-Do List Demo](project1demo.mp4)
 
 
-![](../project-1-To_Do_List/project1demo.gif)
+To see how I coded the application, check out the [coding session's YouTube video!](https://youtu.be/cd11iKn0HCM)
+
+## 🎯 Objective
+Create a simple to-do list where users can:
+* Create their own tasks.
+* Edit existing tasks that need to be changed.
+* Delete completed tasks.
+* View the to-do list.
+
+## 🔧 Challenges and Learnings
+* **List Methods**: Learning about list methods such as .pop(), .append(), and .insert() were crucial in solving the problem. Since I had little prior knowledge about them, I had to do my research to understand how these methods could be used to allow my application to function.
+* **Visual Formatting:** Simple visual formatting issues were encountered but were fixed by adding whitespace and newlines (\n).
