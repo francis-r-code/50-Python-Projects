@@ -1,7 +1,8 @@
 # Random Password Generator
 
 A simple console program written in Python to understand strings and the **random** module.
-![Random Password Generator Demo](project2demo.mp4)
+
+<video controls src="project2demo.mp4" title="Title"></video>
 
 To see how I coded the program, check out the [coding session's YouTube video!](https://youtu.be/-S9FgGBqE28)
 ## 🎯 Objective

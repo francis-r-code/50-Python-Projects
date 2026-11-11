@@ -1,8 +1,8 @@
 # To-Do List
 
 A simple command line interface To-Do List Application created with Python to master handling user input and lists.
-![To-Do List Demo](project1demo.mp4)
 
+<video controls src="project1demo.mp4" title="Title"></video>
 
 To see how I coded the application, check out the [coding session's YouTube video!](https://youtu.be/cd11iKn0HCM)
 
