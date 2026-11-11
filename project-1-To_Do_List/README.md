@@ -2,7 +2,7 @@
 
 A simple command line interface To-Do List Application created with Python to master handling user input and lists.
 
-To see how I coded the application, check out the [coding session's YouTube video!](https://youtu.be/cd11iKn0HCM)
+To see how I coded the application, check out the [coding session's YouTube video!](https://youtu.be/-S9FgGBqE28)
 
 ## 🎯 Objective
 Create a simple to-do list where users can:
