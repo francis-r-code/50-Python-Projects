@@ -12,6 +12,7 @@ Create a program that will allow users to specify a string and a Caesar Cipher k
 
 ## 🔧 Challenges and Learnings
 * **Functions:** I noticed a lot of repetitive code could be reused over and over, so I learned how to set up a function, call functions within other functions, and allow functions to use arguments to give different outputs to make my code simpler.
+* **Global variables:** Because I used functions, I learned how to use global variables and how to determine whether a variable would be globally used or only locally inside the function.
 * **Operators:** Since Caesar Ciphers loop around (for example, if you are on the last letter of the alphabet and the key is 2, you must loop back around and start at the first letter since you are at the end of the alphabet), I had to learn how to use the modulo operator (%) to find the remainder when dividing, allowing me to implement a looping function.
 * **Indexes:** This project allowed me to strengthen my skills with indexes since I had to ensure that my result from my calculations with the modulo operator gave me the correct letter when encoding or decoding a string.
 
