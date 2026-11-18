@@ -22,3 +22,5 @@ Additionally, display a graph that visually demonstrates how many times each sid
 ```
 pip install matplotlib
 ```
+
+https://github.com/user-attachments/assets/9ce3cc78-e683-497e-a226-ca3b48e83ade
