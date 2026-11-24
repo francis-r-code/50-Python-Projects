@@ -1,16 +1,19 @@
-#Project 2: Random Password Generator
+# Project 2: Random Password Generator
 import random
 
-characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()`~-_=+[]{}|;:,<.>/?"
-passwordList = []
-passwordLength = int(input("Enter the number of characters you want your password to have: "))
-numberOfPasswords = int(input("Enter how many passwords you want generated: "))
+# Define constants, set up variables, specify how to generate passwords
+CHARACTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()`~-_=+[]{}|;:,<.>/?"
+password_list = []
+password_length = int(input("Enter the number of characters you want your password to have: "))
+number_of_passwords = int(input("Enter how many passwords you want generated: "))
 
-for passwords in range(numberOfPasswords):
-    generatedPassword = ""
-    for character in range(passwordLength):
-        generatedPassword = generatedPassword + characters[random.randint(0,90)]
-    passwordList.append(generatedPassword)
+# Generate a certain number of passwords with a specified amount of characters
+for passwords in range(number_of_passwords):
+    generated_password = ""
+    for character in range(password_length):
+        generated_password = generated_password + CHARACTERS[random.randint(0, 90)]
+    password_list.append(generated_password)
 
-for number, password in enumerate(passwordList):
+# Print the passwords
+for number, password in enumerate(password_list):
     print(str(number + 1) + ". " + password)

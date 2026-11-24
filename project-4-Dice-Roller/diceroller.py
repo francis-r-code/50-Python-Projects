@@ -1,27 +1,31 @@
-#Project 4: Dice Roller
+# Project 4: Dice Roller
 import random
 import matplotlib.pyplot as plt
 
-diceSides = int(input("Enter how many sides you want the dice to have: "))
+# Setup variables and determine dice sides & times to roll dice
+dice_sides = int(input("Enter how many sides you want the dice to have: "))
 rolls = int(input("Enter how many times you want to roll the dice: "))
 dice = {}
-rollCount = 0
-graphX = []
-graphY = []
+roll_count = 0
+graph_x = []
+graph_y = []
 
-for side in range(diceSides):
-    dice[side+1] = 0
-while rollCount < rolls:
-    dice[random.randint(1,diceSides)] += 1
-    rollCount += 1
+# Roll the dice and track how many times each side was rolled
+for side in range(dice_sides):
+    dice[side + 1] = 0
+while roll_count < rolls:
+    dice[random.randint(1, dice_sides)] += 1
+    roll_count += 1
 for key in dice:
-    graphY.append(dice[key])
-graphX = list(dice)
+    graph_y.append(dice[key])
+graph_x = list(dice)
 
+# Print roll results
 for key in dice:
     print("Side " + str(key) + ": " + str(dice[key]))
 
+# Graph the rolls
 fig, ax = plt.subplots()
-ax.bar(graphX, graphY, width=1)
-ax.set(xticks=graphX)
+ax.bar(graph_x, graph_y, width=1)
+ax.set(xticks=graph_x)
 plt.show()
