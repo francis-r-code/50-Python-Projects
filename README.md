@@ -2,7 +2,7 @@
 
 **Objective:** Complete at least one small Python project a week until 50 projects are completed total.
 
-**Progress: 4/50 Completed**
+**Progress: 5/50 Completed**
 
 This is a project I have decided to take upon to grow my Python programming skills in order to become a competent AI/ML engineer. By completing this project, I aim to grow my problem-solving and programming skills without relying on AI to do the work for me.
 
@@ -23,3 +23,4 @@ Each project will be numbered and contained in its own folder, containing:
  2. [Random Password Generator](./project-2-Random_Password_Generator/)
  3. [Caesar Cipher](./project-3-Caesar-Cipher/)
  4. [Dice Roller](./project-4-Dice-Roller)
+ 5. [Biostats Grapher](./project-5-Biostats-Grapher)
